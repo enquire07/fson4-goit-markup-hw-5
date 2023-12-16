@@ -586,11 +586,9 @@ text-decoration: none;}
         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /*---hw-5---*/
-/*
 .list-item{
-         box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47
-}*/
-
+     /*    box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) */
+}
 .style-css{
         position: relative;
         color: #404bbf;
@@ -606,5 +604,15 @@ text-decoration: none;}
         border-radius: 2px
 }
 .contact-mail{
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media{
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.tagline-link{
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.igt{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
