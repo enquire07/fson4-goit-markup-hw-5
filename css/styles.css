@@ -446,6 +446,9 @@ text-decoration: none;}
          width: 40px;
          height: 40px;
 }
+.social-list{
+        position: relative;
+}
 .soc-med-icon{
         fill: #f4f4fd;
 }
@@ -458,8 +461,11 @@ text-decoration: none;}
         align-items: center;
         justify-content: center;     
 }           
- 
-.social-list:hover{
+ .media{
+        position: absolute;
+        right: 50%;
+ }
+.media:hover{
        background-color:  #404bbf;
 }   
 .media:focus{
@@ -524,10 +530,16 @@ text-decoration: none;}
         color:  #FFFFFF ;
         margin-bottom: 16px;
 }
+.socialmedia{
+        position: relative;
+}
 .itfl{
         display: flex;
         gap: 16px;
-
+}
+.itfl{
+        position: absolute;
+        left: -45%;
 }
 .instag{
         width: 40px;
