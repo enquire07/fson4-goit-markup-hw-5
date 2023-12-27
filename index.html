@@ -39,7 +39,7 @@
         <section class="sec-a">
             <div class=" sec-1 container">
                 <h1 class="my-head">Effective Solutions for Your Business</h1>
-                <button class="h-button" type="button">Order Service
+                <button class="h-button" type="button" data-modal-open>Order Service
                 </button>
             </div>
         </section>
@@ -286,10 +286,14 @@
                 </div>
              </div>
     </footer>
-      <div class="modal-content">
-        <modal-window class="pop-up">
-            <button type="button" class="open"></button>
-        </modal-window>
+      <div class="modal-content is-hidden" data-modal>
+        <div class="pop-up">
+            <button type="button" class=" button-close" data-modal-close>
+                <svg class="modal-svg" width="8" height="8">
+                    <use href="./images/icons.svg#modal-close"></use>
+                </svg>
+            </button>
+        </div>
       </div>  
   <script src="./js/modal.js"></script>
   </body>
