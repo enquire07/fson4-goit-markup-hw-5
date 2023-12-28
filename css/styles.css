@@ -592,7 +592,6 @@ text-decoration: none;}
 .style-css{
         position: relative;
         color: #404bbf;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .style-css::after{
         content:"";
@@ -602,6 +601,9 @@ text-decoration: none;}
         height: 4px;
         background-color: #404bbf;
         border-radius: 2px
+}
+.style-css{
+         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-mail{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -676,13 +678,4 @@ text-decoration: none;}
 .modal-svg:hover,
         :focus {
         fill: #ffffff;
-}.list-apps{
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link{
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.link:hover,
-        :focus{
-                transform: translateY(0%);
         }
