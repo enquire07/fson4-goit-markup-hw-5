@@ -598,7 +598,7 @@ text-decoration: none;}
         content:"";
         position: absolute;
         left: 0;
-        bottom: 1px;
+        bottom: -1px;
         height: 4px;
         background-color: #404bbf;
         border-radius: 2px
@@ -606,15 +606,17 @@ text-decoration: none;}
 .contact-mail{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.h-button{
+        background-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .media{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tagline-link{
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .igt{
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-content{
         position: fixed;
@@ -654,7 +656,7 @@ text-decoration: none;}
         align-items: center;
         justify-content: center;
         background-color: #e7e9fc;
-        border: (1px solid rgba(0, 0, 0, 0.1));
+        border: 1px solid rgba(0, 0, 0, 0.1);
         padding: 0;
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
@@ -664,6 +666,7 @@ text-decoration: none;}
         border: none;
 }
 .buttton-close:focus{
+        background-color: #404bbf;
         border: none;
 }
 .modal-svg{
