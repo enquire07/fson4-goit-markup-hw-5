@@ -33,13 +33,13 @@ font-variant: normal;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
     list-style: none;
+    color: #2e2f42;
     text-transform: capitalize;
     margin: 40px;
 }
-/*.style-css:hover{color: #404bbf;}
-.style-css:focus{color: #404bbf;}*/
+/*.style-css:focus{color: #404bbf;}
+.style-css:hover{color: #404bbf;}*/
 
 .add-ress{font-style: normal;
 }
@@ -59,7 +59,7 @@ font-variant: normal;}
         letter-spacing: 0.02em;
         color: #ffffff;}
        
-.sec-a{background-color: #2e2f42;}*/
+.sec-a{background-color: #2e2f42;}
 
 .click{
         background-color: #4D5AE5;
@@ -676,25 +676,25 @@ text-decoration: none;}
         border: none;
 }
 .modal-svg{
-        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
 
-}
-.button-close :hover,
-.button-close :focus {
+.button-close:hover,
+.button-close:focus {
         fill: #ffffff;
         }
 .all{
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .link{
-        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-apps:hover .p-apps{
-        transform:  translateY(0%);
+        transform:translateY(0%);
 } 
 .list-apps:focus .p-apps{
-       transform: translateY(0%);
+       transform:translateY(0%);
 } 
 
 .card-img{
