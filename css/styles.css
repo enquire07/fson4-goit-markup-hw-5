@@ -583,11 +583,11 @@ text-decoration: none;}
 }
 .link :hover,
 .link :focus{
-        /* box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+         box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 /*---hw-5---*/
 .list-item{
-     /*    box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) */
+        box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) 
 }
 .style-css{
         position: relative;
@@ -611,7 +611,7 @@ text-decoration: none;}
 .h-button{
        transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-list, .media{
+.social-list{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tagline-link{
@@ -639,7 +639,7 @@ text-decoration: none;}
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%) scale(1);
-        width: 40px;
+        min-width: 408px;
         min-height: 584px;
         background: #fcfcfc;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -704,7 +704,7 @@ text-decoration: none;}
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding: 40px 32px;
+        padding: 40px 10px;
         background-color: #4d5ae5;
         height: 100%;
         width: 100%;
