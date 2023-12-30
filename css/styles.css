@@ -10,6 +10,7 @@ font-variant: normal;}
 .root{--letter-spacing: normal;
 --line-height: 1.17;
 --font-size: 18px;--color-property: #2e2f42;
+--transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
 
 .logo-list{text-decoration: none;}
@@ -38,7 +39,7 @@ font-variant: normal;}
     margin: 40px;
 }
 /*.style-css:hover{color: #404bbf;}
-.style-css:focus{color: #404bbf;}
+.style-css:focus{color: #404bbf;}*/
 
 .add-ress{font-style: normal;
 }
@@ -50,7 +51,7 @@ font-variant: normal;}
         color: #434455;
         text-decoration: none;}
 .contact-mail:hover{color: #404bbf}
-.contact-mail:focus{color: #404bbf;}*/
+.contact-mail:focus{color: #404bbf;}
 
 .my-head{
         line-height: 1.07;
@@ -586,6 +587,9 @@ text-decoration: none;}
         /* box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
 }
 /*---hw-5---*/
+:root{
+        --transistion: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .list-item{
         box-shadow: 0px 2px 1px rgba (46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba (46, 47, 66, 0.08) 
 }
