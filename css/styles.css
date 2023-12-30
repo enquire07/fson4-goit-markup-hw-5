@@ -602,10 +602,10 @@ text-decoration: none;}
         background-color: #404bbf;
         border-radius: 2px
 }
-.style-css link{
+.list-item list{
          transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-mail link{
+.list-add list{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .h-button{
