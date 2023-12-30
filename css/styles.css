@@ -606,14 +606,14 @@ text-decoration: none;}
         background-color: #404bbf;
         border-radius: 2px
 }
-.li::content{
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+.ul,.style-css{
+        transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .contact-mail{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .h-button{
-       transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+       transition:background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-list.media{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
