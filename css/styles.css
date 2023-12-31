@@ -686,11 +686,9 @@ text-decoration: none;}
 .link{
         transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-apps:hover .p-apps{
-        transform:translateY(0%);
-} 
+.list-apps:hover .p-apps,
 .list-apps:focus .p-apps{
-       transform:translateY(0%);
+       transform: translateY(0%);
 } 
 
 .card-img{
