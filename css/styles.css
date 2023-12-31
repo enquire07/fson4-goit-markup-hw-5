@@ -667,14 +667,11 @@ text-decoration: none;}
         cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
-.button-close:hover{
+.button-close:hover,:focus{
        background-color: #404bbf;
         border: none;
 }
-.buttton-close:focus{
-       background-color: #404bbf;
-        border: none;
-}
+
 .modal-svg{
         transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } 
