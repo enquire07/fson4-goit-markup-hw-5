@@ -38,8 +38,8 @@ font-variant: normal;}
     text-transform: capitalize;
     margin: 40px;
 }
-/*.style-css:focus{color: #404bbf;}
-.style-css:hover{color: #404bbf;}*/
+.style-css:focus{color: #404bbf;}
+.style-css:hover{color: #404bbf;}
 
 .add-ress{font-style: normal;
 }
