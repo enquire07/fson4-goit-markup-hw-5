@@ -694,7 +694,7 @@ text-decoration: none;}
         transform:translateY(0%);
 } 
 .list-apps:focus .p-apps{
-       transform:translateY(0%);
+       transform: transform: translateY(0%);
 } 
 
 .card-img{
